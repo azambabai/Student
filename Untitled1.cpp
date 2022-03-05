@@ -14,7 +14,8 @@ string FirstName;            //student first name
 string LastName;            //student last name
 float Average;              //studet Average
 int *Course;               //number of course with integer name
-bool Sex ;             //zer for men and one for women
+bool Sex ;             //zero for men and one for women
+bool Tuition ;             //price = zero for Daily and  one for Night
 };
 //list of global variables
 student *st = new student[NumberOfStudents];
@@ -29,8 +30,10 @@ void CollectingStudentInformation(){
 		cin>> st[Index].FirstName;
 		cout<<"Last name:\n";
 		cin >> st[Index].LastName;
-		cout<< "Sex (zer for men andone for women): \n";
+		cout<< "Sex (zero for men andone for women): \n";
 		cin >> st[Index].Sex;
+		cout << " Tuition (price ,zero for Daily and  one for Night) :\n";
+		cin >> st[Index].Tuition;
 		int NumberOfCourse;
 		cout<<"enter number of course: \n";
 		cin >> NumberOfCourse;
