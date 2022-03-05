@@ -66,6 +66,7 @@ int main()
 {
 
 	CollectingStudentInformation();
+	void menu();
 	
 	return 1;
 }
