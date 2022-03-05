@@ -49,9 +49,16 @@ void CollectingStudentInformation(){
 	st[Index].Average = CourseSum/NumberOfCourse;
 			
 		void ReportByTopAverage(){    //high average
-		if(Average > 17){
+		if(Average > 17)
 		cout << "student name: \n";
-		}
+		
+	}
+    void SearchByStudentId(){                //SearchByStudentId
+    if(StudentId == 9812220154)	
+    cout << "Azam";
+    else
+    cout << "Ali" ;
+    
 	}
 }
 }
