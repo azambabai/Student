@@ -47,6 +47,12 @@ void CollectingStudentInformation(){
 		
 }
 	st[Index].Average = CourseSum/NumberOfCourse;
+			
+		void ReportByTopAverage(){    //high average
+		if(Average > 17){
+		cout << "student name: \n";
+		}
+	}
 }
 }
 int main()
