@@ -7,13 +7,14 @@ using namespace std;
 int NumberOfStudents=2;
 //defenition of student structure
 struct student {
+
 int StudentId;               //student identifier
 int NationalId;              //national identifier
 string FirstName;            //student first name
 string LastName;            //student last name
 float Average;              //studet Average
 int *Course;               //number of course with integer name
-bool Sex ;             //zer for men andone for women
+bool Sex ;             //zer for men and one for women
 };
 //list of global variables
 student *st = new student[NumberOfStudents];
